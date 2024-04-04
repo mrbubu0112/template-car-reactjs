@@ -1,0 +1,121 @@
+{
+  "images": [
+    {
+      "imgPath": "src/assets/img/service/car1.svg",
+      "imgPath2": "src/assets/img/service/carwhite1.svg",
+      "title": "largest dealership of car",
+      "comment": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia."
+    },
+    {
+      "imgPath": "src/assets/img/service/car2.svg",
+      "imgPath2": "src/assets/img/service/carwhite2.svg",
+      "title": "unlimited repair warrenty",
+      "comment": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia."
+    },
+    {
+      "imgPath": "src/assets/img/service/car3.svg",
+      "imgPath2": "src/assets/img/service/carwhite3.svg",
+      "title": "insurence support",
+      "comment": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia."
+    }
+  ],
+  "comments": [
+    {
+      "imgPath": "src/assets/img/Avatar/c1.png",
+      "comment": "Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit.",
+      "name": "romi rain",
+      "address": "london"
+    },
+    {
+      "imgPath": "src/assets/img/Avatar/c2.png",
+      "comment": "Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit.",
+      "name": "romi rain",
+      "address": "london"
+    },
+    {
+      "imgPath": "src/assets/img/Avatar/c3.png",
+      "comment": "Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit.",
+      "name": "romi rain",
+      "address": "Washington"
+    }
+  ],
+  "featureCars": [
+    {
+      "imgPath": "src/assets/img/FeatureCars/fc1.png",
+      "model": "model: 2017 3100 mi 240HP",
+      "caption": "BMW 6-Series Gran Coupe",
+      "price": "$89,395",
+      "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non."
+    },
+    {
+      "imgPath": "src/assets/img/FeatureCars/fc2.png",
+      "model": "model: 2017 3100 mi 240HP",
+      "caption": "chevrolet camaro wmv20",
+      "price": "$89,395",
+      "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non."
+    },
+    {
+      "imgPath": "src/assets/img/FeatureCars/fc3.png",
+      "model": "model: 2017 3100 mi 240HP",
+      "caption": "lamborghini v520",
+      "price": "$89,395",
+      "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non."
+    },
+    {
+      "imgPath": "src/assets/img/FeatureCars/fc4.png",
+      "model": "model: 2017 3100 mi 240HP",
+      "caption": "audi a3 sedan",
+      "price": "$89,395",
+      "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non."
+    },
+    {
+      "imgPath": "src/assets/img/FeatureCars/fc5.png",
+      "model": "model: 2017 3100 mi 240HP",
+      "caption": "infiniti z5",
+      "price": "$89,395",
+      "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non."
+    },
+    {
+      "imgPath": "src/assets/img/FeatureCars/fc6.png",
+      "model": "model: 2017 3100 mi 240HP",
+      "caption": "porsche 718 cayman",
+      "price": "$89,395",
+      "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non."
+    },
+    {
+      "imgPath": "src/assets/img/FeatureCars/fc7.png",
+      "model": "model: 2017 3100 mi 240HP",
+      "caption": "bmw 8-series coupe",
+      "price": "$89,395",
+      "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non."
+    },
+    {
+      "imgPath": "src/assets/img/FeatureCars/fc8.png",
+      "model": "model: 2017 3100 mi 240HP",
+      "caption": "BMW xseries-6",
+      "price": "$89,395",
+      "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non."
+    }
+  ],
+
+  "newcars": [
+    {
+      "label": "chevrolet camaro",
+      "label1": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "label2": "Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "imgPath": "src/assets/img/ncm1.png"
+    },
+    {
+      "label": "chevrolet camaro1",
+      "label1": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "label2": "Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "imgPath": "src/assets/img/ncm2.png"
+    },
+    {
+      "label": "chevrolet camaro2",
+      "label1": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "label2": "Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "imgPath": "src/assets/img/ncm3.png"
+    }
+  ]
+}

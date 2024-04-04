@@ -1,0 +1,368 @@
+
+
+.welcome {
+    position: relative;
+    z-index: 1;
+    /* Các kiểu CSS khác */
+  }
+.before-welcome{
+    position: absolute !important;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .navbar {
+    position: absolute !important;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: 'none';
+    /* Các kiểu CSS khác */
+  }
+
+ 
+  .nav-link{
+    text-transform: uppercase;
+    padding-right: 20px;
+  }
+
+  .nav-link:hover {
+    color: blue !important;
+}
+
+  #back-to-top-anchor {
+    position: absolute !important;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: 'none';
+    /* Các kiểu CSS khác */
+  }
+
+  .form {
+    position: absolute !important;
+    z-index: 3;
+    align-Items: 'center'
+   
+
+  } 
+
+  .nav-item a{
+    color: white
+  }
+
+  
+
+  .navbar-toggler.btn-logo{
+    background-color: black ;
+    border: 1px solid #4e4ffa;;
+  }
+
+  .navbar-toggler-icon.icon-logo{
+    color: #4e4ffa;
+  }
+  .navbar-toggler-icon{
+    color: #4e4ffa;
+  }
+
+  #newcars{
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #f8f9fb;
+  }
+
+  .navbar.navbar-expand-lg.fixed-top{
+   
+    background-color: none !important;
+  }
+
+  .navbar-nav.me-auto.mb-2.mb-lg-0{
+    background-color: none !important;
+  }
+
+  .navbar-nav .nav-link.active{
+    color: #4e4ffa !important;
+  }
+
+
+  
+  .css-i4bv87-MuiSvgIcon-root{
+    animation: arrow-bounce 1s infinite;
+  }
+  
+
+/* phone */
+
+@media (max-width: 575.9px) {
+
+    .col-xs-12.service{
+        display: block  !important;
+       
+    }
+    featureCars{
+        display: block  !important;
+        
+       
+    }
+    .navbar>.container {
+        justify-content: space-around !important;
+        margin-left: -50px;
+        
+    }
+
+    a.nav-link {
+        padding-left: 20px;
+    }
+
+    .form{
+        width: 100% !important; 
+       
+        margin-top: 500px !important;
+        position: absolute;
+        top: 50%;
+     
+    }   
+
+    .form-table select {
+        width: 100% !important;
+    }
+
+    .navbar>.container {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .navbar-brand.logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container{
+        --bs-gutter-x: 0rem !important;
+        background-color: black;
+        
+        
+    }
+    .show-toggler{
+        background-color: black;
+        animation: dropdownAnimation 1.5s ease-in-out forwards !important;
+      }
+      
+        
+      
+      
+      
+      .form-newcars{
+        display: block !important;
+      }
+
+      .form-newcars img{
+        width: 100%;
+      }
+
+      .comments-form{
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .navbar.navbar-expand-lg.fixed-top{
+        height: 50px !important;
+      }
+
+      .navbar-nav.me-auto.mb-2.mb-lg-0{
+        margin-left: 10px !important;
+        padding-left: 0px !important;
+        animation: dropdownAnimation 1.5s ease-in-out forwards !important,
+        backgroundAnimation 1.5s ease-in-out infinite alternate !important;
+      }
+
+      .navbar-toggler btn-logo{
+        margin-left: 10px !important; 
+        
+      }
+      
+
+}
+ 
+    
+ 
+
+ /* Tablet */
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .col-xs-12.service{
+    display: block  !important;
+   
+}
+featureCars{
+    display: block  !important;
+    
+   
+}
+.navbar>.container {
+    justify-content: space-around !important;
+    margin-left: -50px;
+    
+}
+
+a.nav-link {
+    padding-left: 20px;
+}
+
+.form{
+    width: 100% !important; 
+   
+    margin-top: 500px !important;
+    position: absolute;
+    top: 50%;
+ 
+}   
+
+.form-table select {
+    width: 100% !important;
+}
+
+.navbar>.container {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.navbar-brand.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    --bs-gutter-x: 0rem !important;
+    background-color: black;
+    max-width: 100% !important;
+    
+}
+.show-toggler{
+    background-color: black;
+    animation: dropdownAnimation 1.5s ease-in-out forwards !important;
+  }
+  
+    
+  
+  
+  
+  .form-newcars{
+    display: block !important;
+  }
+
+  .form-newcars img{
+    width: 100%;
+  }
+
+  .comments-form{
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .navbar.navbar-expand-lg.fixed-top{
+    height: 50px !important;
+    background-color: black !important;
+  }
+
+  .navbar-nav.me-auto.mb-2.mb-lg-0{
+    margin-left: 10px !important;
+    background-color: black !important;
+    animation: dropdownAnimation 1.5s ease-in-out forwards !important,
+    backgroundAnimation 1.5s ease-in-out infinite alternate !important;
+  }
+
+  .navbar-toggler btn-logo{
+    margin-left: 10px !important; 
+    
+  }
+
+  .container{
+    margin-right: 0px !important;
+    width: 100%;
+    
+  }
+  
+    /* .navbar>.container {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+     */
+    
+ 
+}
+
+/* màn hình */
+
+@media (min-width: 769px) {
+    .featureCars{
+        width: 1170px;}
+    .footer{
+         width: 1170px;}
+
+    .col-xs-12.service{
+        width: 1170px  !important;
+    }
+
+    .navbar.fixed-top {
+        position: fixed !important;
+        background-color: none !important;
+
+    
+    /* .form-table{
+        margin-left: 30px !important;
+    } */
+}
+
+.navbar-expand-lg .navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.navbar-brand.logo{
+  padding-left: 150px;
+}
+
+
+}
+
+
+
+@keyframes dropdownAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes backgroundAnimation {
+  0% {
+      background-color: none;
+  }
+  
+  100% {
+      background-color: black;
+  }
+}
+
+
+@keyframes arrow-bounce {
+  0% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
