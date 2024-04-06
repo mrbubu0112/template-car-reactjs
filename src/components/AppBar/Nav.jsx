@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import React from 'react';
 
 
 function Navbar() {
@@ -10,7 +11,7 @@ function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.pageYOffset
+      const scrollTop = window.scrollY
       if (scrollTop > 0) {
         setIsScrolled(true)
       } else {
@@ -33,6 +34,7 @@ function Navbar() {
 
 
     <nav
+    data-testid="navbar"
       className="navbar navbar-expand-lg fixed-top"
       style={{
         color: 'white',
@@ -44,6 +46,7 @@ function Navbar() {
       <div className="container" >
         <button
           id="navbar-toggle"
+          data-testid="navbar-toggle" 
           className="navbar-toggler btn-logo"
           onClick={handleNavbarToggle}
           type="button"
@@ -75,6 +78,7 @@ function Navbar() {
         </a>
         <div className={`collapse navbar-collapse show-toggler ${isTogglerActive ? 'active' : ''}`}
           id="navbarTogglerDemo01"
+          data-testid="navbar-collapse"
           style={{ display: isTogglerActive ? 'block' : 'none', color: 'blue' }}
 
         >
