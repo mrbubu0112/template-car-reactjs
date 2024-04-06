@@ -214,7 +214,7 @@ a.nav-link {
 .form{
     width: 100% !important; 
    
-    margin-top: 500px !important;
+    margin-top: 100px !important;
     position: absolute;
     top: 50%;
  
@@ -267,13 +267,15 @@ a.nav-link {
 
   .navbar-nav.me-auto.mb-2.mb-lg-0{
     margin-left: 10px !important;
-    background-color: black !important;
-    animation: dropdownAnimation 1.5s ease-in-out forwards !important,
+  background-color: black !important;
+  animation: dropdownAnimation 1.5s ease-in-out forwards !important,
     backgroundAnimation 1.5s ease-in-out infinite alternate !important;
+  padding-left: 0px !important;;
   }
 
-  .navbar-toggler btn-logo{
-    margin-left: 10px !important; 
+  .navbar-toggler.btn-logo{
+    margin-left: 30px !important; 
+  
     
   }
 
